@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .form-container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            background: radial-gradient(rgb(232, 25, 139)20%,rgb(73, 73, 224)100%);
+            border: 1px solid 1#333;
+            border-radius: 3px;
+        }
+
+        .form-container label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .form-container input[type="text"]
+        .form-container input[type="email"]
+        .form-container input[type="password"]
+        .form-container textarea {
+            width: 100px;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 3px;
+        }
+        
+        .form-container button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="form-container">
+        <h2 style="color: white;">login form</h2>
+
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="Name" name="name" must be required>
+
+            <label for="email">email</label>
+            <input type="text" id="email" name="email" must be required>
+
+
+            <label for="password">password</label>
+            <input type="text" id="password" name="password" must be required>
+
+            <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
